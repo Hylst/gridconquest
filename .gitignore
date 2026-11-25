@@ -16,3 +16,6 @@ dist/
 .cursor/
 CLAUDE.md
 AGENTS.md
+
+# Agents et secrets locaux (garde-fou du 25/11/2026)
+agents.md
