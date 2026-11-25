@@ -3,3 +3,16 @@ dist/
 .DS_Store
 *.log
 *.zip
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Outillage local
+.claude/
+.opencode/
+.cursor/
+CLAUDE.md
+AGENTS.md
