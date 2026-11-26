@@ -9,15 +9,15 @@ export interface LevelHDImage {
 }
 
 export const LEVEL_IMAGES: LevelHDImage[] = [
-  { id: 1, name: "Coucher de soleil Synthwave",   src: "/images/level1.jpg", img: null, loaded: false },
-  { id: 2, name: "Forêt Cybernétique Mystique",   src: "/images/level2.jpg", img: null, loaded: false },
-  { id: 3, name: "Mégapole Cyberpunk Néon",       src: "/images/level3.jpg", img: null, loaded: false },
-  { id: 4, name: "Pyramides du Désert de Données",src: "/images/level4.jpg", img: null, loaded: false },
-  { id: 5, name: "Nébuleuse et Monolithe Stellaire",src: "/images/level5.jpg", img: null, loaded: false },
-  { id: 6, name: "Caverne de Glace Haute Tech",   src: "/images/level6.jpg", img: null, loaded: false },
-  { id: 7, name: "Royaume Volcanique Ardent",     src: "/images/level7.jpg", img: null, loaded: false },
-  { id: 8, name: "Abysses Océaniques Luminescents",src: "/images/level8.jpg", img: null, loaded: false },
-  { id: 9, name: "Mécanisme Steampunk Doré",      src: "/images/level9.jpg", img: null, loaded: false },
+  { id: 1, name: "Coucher de soleil Synthwave",   src: "./images/level1.jpg", img: null, loaded: false },
+  { id: 2, name: "Forêt Cybernétique Mystique",   src: "./images/level2.jpg", img: null, loaded: false },
+  { id: 3, name: "Mégapole Cyberpunk Néon",       src: "./images/level3.jpg", img: null, loaded: false },
+  { id: 4, name: "Pyramides du Désert de Données",src: "./images/level4.jpg", img: null, loaded: false },
+  { id: 5, name: "Nébuleuse et Monolithe Stellaire",src: "./images/level5.jpg", img: null, loaded: false },
+  { id: 6, name: "Caverne de Glace Haute Tech",   src: "./images/level6.jpg", img: null, loaded: false },
+  { id: 7, name: "Royaume Volcanique Ardent",     src: "./images/level7.jpg", img: null, loaded: false },
+  { id: 8, name: "Abysses Océaniques Luminescents",src: "./images/level8.jpg", img: null, loaded: false },
+  { id: 9, name: "Mécanisme Steampunk Doré",      src: "./images/level9.jpg", img: null, loaded: false },
 ];
 
 // Renvoie l'image HD d'un niveau (cycles tous les 9 niveaux pour rejouabilité infinie)
@@ -27,7 +27,7 @@ export function getHDImageForLevel(lvl: number): LevelHDImage {
 }
 
 export const UI_IMAGES = {
-  arcadeCabinet: { src: "/images/arcade_cabinet.jpg", img: null as HTMLImageElement | null, loaded: false },
+  arcadeCabinet: { src: "./images/arcade_cabinet.jpg", img: null as HTMLImageElement | null, loaded: false },
 };
 
 export function preloadAllImages(onProgress?: (loaded: number, total: number) => void) {

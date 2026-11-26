@@ -1169,10 +1169,10 @@ export default function App() {
         <div className="flex flex-wrap items-start justify-between gap-2">
           <div className="min-w-0">
             <h1 className="font-['Press_Start_2P'] text-[7px] leading-relaxed tracking-widest text-green-400 drop-shadow-[0_0_6px_rgba(74,222,128,0.8)] sm:text-[10px] md:text-xs">
-              GRID EVADER (QIX STYLE)
+              GRID CONQUEST
             </h1>
             <p className="mt-0.5 font-['VT323'] text-xs text-cyan-300 opacity-70 sm:text-sm">
-              Capturez la grille · Évitez le Qix
+              Capturez la grille · Posez des tourelles
             </p>
           </div>
           <div className="flex flex-col items-end gap-0.5 font-['VT323'] text-sm text-green-300 sm:text-base">
